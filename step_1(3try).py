@@ -1,3 +1,3 @@
-number_1, numbers_2, numbers_3 = map(int, input("Введите 3 числа через точку запятую: ").split(';'))
-division = (number_1 / numbers_2 / numbers_3)
-print(division)
+a, b, c = map(int, input("Введите 3 числа через точку с запятой: ").split(';'))
+d = (a/b/c)
+print(d)
